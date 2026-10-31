@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1792843360495,
+  "lastUpdate": 1793448154874,
   "repoUrl": "https://github.com/GMTekAI/repomix",
   "entries": {
     "Repomix Performance": [
@@ -7920,6 +7920,51 @@ window.BENCHMARK_DATA = {
             "range": "±13",
             "unit": "ms",
             "extra": "Median of 20 runs\nQ1: 966ms, Q3: 979ms\nAll times: 957, 959, 961, 962, 964, 966, 967, 967, 968, 969, 970, 970, 978, 978, 979, 979, 986, 991, 992, 1024ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "koukun0120@gmail.com",
+            "name": "Kazuki Yamada",
+            "username": "yamadashy"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "7d7b28bf3e651e2f34a284ca9c91074edfe1b88d",
+          "message": "Merge pull request #1965 from yamadashy/fix/remove-comments-url-scss-vue\n\nfix(core): Keep URLs when removing comments in SCSS, Less, Vue and Svelte",
+          "timestamp": "2026-10-29T00:24:00+09:00",
+          "tree_id": "6ac07004615f042bb3a5b5f73114540c20ee2424",
+          "url": "https://github.com/GMTekAI/repomix/commit/7d7b28bf3e651e2f34a284ca9c91074edfe1b88d"
+        },
+        "date": 1793448153604,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Repomix Pack (macOS)",
+            "value": 604,
+            "range": "±25",
+            "unit": "ms",
+            "extra": "Median of 30 runs\nQ1: 597ms, Q3: 622ms\nAll times: 586, 586, 587, 590, 591, 592, 597, 597, 598, 598, 599, 599, 601, 602, 603, 604, 608, 611, 614, 614, 618, 619, 622, 623, 639, 648, 651, 684, 698, 726ms"
+          },
+          {
+            "name": "Repomix Pack (Linux)",
+            "value": 733,
+            "range": "±16",
+            "unit": "ms",
+            "extra": "Median of 20 runs\nQ1: 727ms, Q3: 743ms\nAll times: 723, 725, 725, 726, 726, 727, 728, 731, 732, 732, 733, 735, 735, 736, 743, 743, 745, 748, 750, 755ms"
+          },
+          {
+            "name": "Repomix Pack (Windows)",
+            "value": 1386,
+            "range": "±87",
+            "unit": "ms",
+            "extra": "Median of 20 runs\nQ1: 1378ms, Q3: 1465ms\nAll times: 1342, 1346, 1346, 1349, 1356, 1378, 1381, 1381, 1381, 1382, 1386, 1398, 1400, 1456, 1457, 1465, 1538, 1649, 1789, 1824ms"
           }
         ]
       }
