@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1793448154874,
+  "lastUpdate": 1794056516673,
   "repoUrl": "https://github.com/GMTekAI/repomix",
   "entries": {
     "Repomix Performance": [
@@ -7965,6 +7965,51 @@ window.BENCHMARK_DATA = {
             "range": "±87",
             "unit": "ms",
             "extra": "Median of 20 runs\nQ1: 1378ms, Q3: 1465ms\nAll times: 1342, 1346, 1346, 1349, 1356, 1378, 1381, 1381, 1381, 1382, 1386, 1398, 1400, 1456, 1457, 1465, 1538, 1649, 1789, 1824ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "koukun0120@gmail.com",
+            "name": "Kazuki Yamada",
+            "username": "yamadashy"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "5becbb59429aa9d570ae7b7af710e98871721fca",
+          "message": "Merge pull request #2011 from yamadashy/renovate/root-non-major-dependencies\n\nfix(deps): update root non-major dependencies",
+          "timestamp": "2026-11-07T17:32:14+09:00",
+          "tree_id": "043a086fd7b5ab57d32f41d62234d6a0eb55b348",
+          "url": "https://github.com/GMTekAI/repomix/commit/5becbb59429aa9d570ae7b7af710e98871721fca"
+        },
+        "date": 1794056515820,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Repomix Pack (macOS)",
+            "value": 608,
+            "range": "±81",
+            "unit": "ms",
+            "extra": "Median of 30 runs\nQ1: 587ms, Q3: 668ms\nAll times: 565, 571, 584, 585, 585, 585, 586, 587, 587, 589, 592, 593, 601, 602, 605, 608, 608, 622, 624, 626, 628, 659, 668, 687, 704, 810, 829, 842, 918, 933ms"
+          },
+          {
+            "name": "Repomix Pack (Linux)",
+            "value": 1037,
+            "range": "±20",
+            "unit": "ms",
+            "extra": "Median of 20 runs\nQ1: 1030ms, Q3: 1050ms\nAll times: 1014, 1018, 1024, 1025, 1027, 1030, 1031, 1032, 1035, 1035, 1037, 1041, 1042, 1044, 1048, 1050, 1058, 1059, 1071, 1083ms"
+          },
+          {
+            "name": "Repomix Pack (Windows)",
+            "value": 1323,
+            "range": "±31",
+            "unit": "ms",
+            "extra": "Median of 20 runs\nQ1: 1314ms, Q3: 1345ms\nAll times: 1291, 1297, 1304, 1305, 1310, 1314, 1316, 1319, 1321, 1322, 1323, 1326, 1328, 1333, 1339, 1345, 1350, 1354, 1360, 1368ms"
           }
         ]
       }
